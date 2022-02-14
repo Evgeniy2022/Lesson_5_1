@@ -1,0 +1,140 @@
+
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+/*font-family: 'Syne Tactile', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Syne+Tactile&display=swap');
+/* font-family: 'Redressed', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+/* font-family: 'Shizuru', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,400&display=swap');
+/* font-family: 'Work Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+/* font-family: 'Akaya Telivigala', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;900&display=swap');
+/* font-family: 'Titillium Web', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+/* font-family: 'Quintessential', cursive;*/
+
+.wrapper{
+	overflow: hidden;
+}
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+	max-width: 900px;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0 auto;
+	background-color: rgb(47, 231, 154);
+}
+header{
+	margin-bottom: 30px;
+}
+img{
+	max-width: 900px;
+}
+h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center;
+	text-shadow: 0 1px 5px rgb(13, 55, 192);
+}
+
+.content__top-subtitle{
+	font-family: 'Quintessential', cursive;
+	font-size: 20px;
+	text-shadow: 10px 1px 5px rgb(185, 93, 147);
+	color: blueviolet;
+}
+
+.content__center-text1{
+	font-family: 'Redressed', cursive;
+	max-width: 450px;
+	max-height: 200px;
+	overflow: scroll;
+	background-color: rgb(175, 101, 101);
+	text-shadow: 0px 1px 5px rgb(27, 30, 221);
+	margin: 0 0 0 auto;
+}
+.content__center-text2{
+	font-family: 'Syne Tactile', cursive;
+	font-size: 16px;
+	max-width: 400px;	
+	margin: 0 0 20px auto;
+	text-shadow: 3px 3px 3px rgb(221, 50, 27);
+}
+.content__center-text1, .content__center-text2{
+	display: inline-block;
+}
+
+.content__center-text3{
+	font-family: 'Shizuru', cursive;
+	background-color: rgb(23, 54, 230);
+	color: black;
+	line-height: 1.5;
+	max-width: 600px;
+	text-align: center;
+	margin: 0 0 0 80px;
+	text-shadow: 10px 3px 3px rgb(221, 50, 27);	
+	text-decoration: underline;
+}
+
+.content__center-text4{
+	font-family: 'Akaya Telivigala', cursive;
+	line-height: 1.1;
+	color: crimson;
+	text-shadow: 10px 3px 3px rgb(96, 21, 235);	
+	max-width: 400px;
+	min-height: 100px;
+	overflow: scroll;
+
+}
+
+.img2{
+	max-width: 400px;
+	min-height: 180px;
+	margin: 0 0 10 auto;
+}
+.content__center-text5{
+	font-family: 'Akaya Telivigala', cursive;
+	font-size: 20px;
+	line-height: 1.1;
+	color: rgb(183, 220, 20);
+	text-shadow: 10px 3px 3px rgb(131, 16, 238);	
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.content__center-text4, .content__center-text5{
+	display: inline-block;
+}
+
+.content__center-text6{
+	font-family: 'Syne Tactile', cursive;
+	font-size: 18px;
+	color: rgb(245, 22, 41);
+	text-shadow: 0 4px 1px #000;
+	overflow: auto;
+	max-height: 200px;
+	padding: 50px;
+	text-align: right;
+}
+
+.content__center-text7{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 25px;
+	line-height: 1.8;
+	color: cornflowerblue;
+	text-shadow: 15px 15px 2px rgb(248, 6, 6);
+	margin-bottom: 50px;
+}
+
+footer{
+	font-size: 30px;
+	text-shadow: 0px 1px 5px rgb(10, 10, 10);
+	color: rgb(241, 10, 126);
+}
